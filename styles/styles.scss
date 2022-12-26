@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+    width: 100vw;
+    min-height: 100vh;
+    max-height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f3f3f3;
+}
+
+.titulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    h1 {
+        font-size: 3.8rem;
+    }
+    h3 {
+        font-size: 1.5rem;
+    }
+}
+
+#botones {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.tarjeta {
+    height: 50vh;
+    width: 200px;
+    background-color: #c2c2c2;
+    border: solid 1px;
+    margin: 30px;
+    .imagenProducto {
+        height: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .textoProductos {
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+#mostrarProductos {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    height: auto;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+}
